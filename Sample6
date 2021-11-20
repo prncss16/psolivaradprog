@@ -1,0 +1,25 @@
+	using System;
+					
+	public class Program
+	{
+		public static void Main()
+		{
+			
+			int numberOne, numberTwo, numberThree;
+			Console.WriteLine("Please enter three numbers:");
+
+			Console.WriteLine("Please enter first numbers:");
+			numberOne = int.Parse(Console.ReadLine());
+			
+			Console.WriteLine("Please enter second numbers:");
+			numberTwo = int.Parse(Console.ReadLine());
+			
+			Console.WriteLine("Please enter third numbers:");
+			numberThree = int.Parse(Console.ReadLine());
+			
+			int numsum = numberOne + numberTwo + numberThree;
+			
+			Console.WriteLine("The sum of the three is: " + numsum);
+			
+		}
+	}
