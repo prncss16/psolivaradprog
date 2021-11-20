@@ -1,0 +1,15 @@
+	using System;
+					
+	public class Program
+	{
+		public static void Main()
+		{
+						
+			int length = 21; // pwedeng baguhin yung number
+			int width = 9;
+			int area = length * width;
+			Console.WriteLine("Given the following rectangle measurements: ");
+			Console.WriteLine("Length = "+ length) ; Console.WriteLine("Width = "+ width);
+			Console.WriteLine("The area of rectangle is: "+ area);
+		}
+	}
