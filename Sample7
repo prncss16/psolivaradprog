@@ -1,0 +1,12 @@
+	using System;
+					
+	public class Program
+	{
+		public static void Main()
+		{
+			Console.WriteLine("Kindly enter a number: ");
+			int number = int.Parse(Console.ReadLine());
+			bool isOdd = number % 2 == 1;			
+			Console.WriteLine("The number is ODD. True or False? The Answer is: "+ isOdd);			
+	}
+	}
